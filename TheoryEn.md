@@ -24,7 +24,7 @@ else → return comparison by criterion3
 
 Complexity: O(n log n) time, O(n) space
 
-## Comparator with three comparison levels
+## Comparator with three comparison levels:
 
 Arrays.sort(array, (a, b) -> {
     // Level 1: Primary criterion
