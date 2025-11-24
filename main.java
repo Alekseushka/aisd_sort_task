@@ -100,7 +100,7 @@ class Solution {
         System.out.println("Тест 1:");
         System.out.println("Ввод: nums = " + arrayToString(nums1) + ", target = " + target1);
         System.out.println("Вывод: " + arrayToString(result1));
-        System.out.println("Ожидаемый: [3, 5, 1, 7, 9]");
+        System.out.println("Ожидаемый: [5, 3, 7, 1, 9]");
         System.out.println();
         
         // Тест 2
@@ -120,7 +120,7 @@ class Solution {
         System.out.println("Тест 3:");
         System.out.println("Ввод: nums = " + arrayToString(nums3) + ", target = " + target3);
         System.out.println("Вывод: " + arrayToString(result3));
-        System.out.println("Ожидаемый: [0, 5, -5, 10, -10]");
+        System.out.println("Ожидаемый: [0, -5, 5, -10, 10]");
         System.out.println();
         
         // Тест 4
@@ -150,7 +150,7 @@ class Solution {
         System.out.println("Тест 6:");
         System.out.println("Ввод: nums = " + arrayToString(nums6) + ", target = " + target6);
         System.out.println("Вывод: " + arrayToString(result6));
-        System.out.println("Ожидаемый: [5, 4, 9, 3, 1, 1]");
+        System.out.println("Ожидаемый: [5, 4, 3, 9, 1, 1]");
         System.out.println();
         
         // Тест 7
@@ -160,7 +160,7 @@ class Solution {
         System.out.println("Тест 7:");
         System.out.println("Ввод: nums = " + arrayToString(nums7) + ", target = " + target7);
         System.out.println("Вывод: " + arrayToString(result7));
-        System.out.println("Ожидаемый: [1, -1, 2, -2, 3, -3]");
+        System.out.println("Ожидаемый: [-1, 1, -2, 2, -3, 3]");
         System.out.println();
         
         // Тест 8
