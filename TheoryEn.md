@@ -27,15 +27,16 @@ Complexity: O(n log n) time, O(n) space
 ## Comparator with three comparison levels:
 
 Arrays.sort(array, (a, b) -> {
-    // Level 1: Primary criterion
+
+        Level 1: Primary criterion
     int primary = Integer.compare(metric1(a), metric1(b));
     if (primary != 0) return primary;
-    
-    // Level 2: Secondary criterion  
+        
+        Level 2: Secondary criterion df 
     int secondary = Integer.compare(metric2(a), metric2(b));
     if (secondary != 0) return secondary;
     
-    // Level 3: Tertiary criterion
+        Level 3: Tertiary criterion
     return Integer.compare(a, b);
 });
 
